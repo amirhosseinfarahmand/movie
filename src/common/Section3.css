@@ -1,0 +1,215 @@
+.showBox {
+  width: 550px;
+  height: 380px;
+  background-color: #404040;
+  display: grid;
+  margin: 25px 25px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.twoBox {
+  height: 300px;
+  display: flex;
+  position: relative;
+  bottom: 5px;
+}
+
+.detailBox {
+  background-color: rgb(34, 33, 33);
+  width: 100%;
+  font-size: 13px;
+  display: grid;
+  align-items: center;
+}
+
+.gunres {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.span1 {
+  margin: 0 5px;
+}
+
+.filmIcon {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.calendar span {
+  margin: 0 5px;
+}
+
+.calendarIcon {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.timeIcon {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+.time span {
+  margin: 0 5px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.language span {
+  margin: 0 5px;
+}
+
+.languageIcon {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+.multiLanguage {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.multiLanguage span {
+  margin: 0 5px;
+}
+
+.multiLanguageIcon {
+  font-size: 17px;
+  margin-left: 2px;
+}
+
+.dollar {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.dollar span {
+  margin: 0 5px;
+}
+
+.dollarIcon {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+.showBox .imdb {
+  display: grid;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  right: 0;
+  top: 9.5%;
+}
+
+.imdb p {
+  text-align: center;
+}
+
+.imdb img {
+  width: 40px;
+  height: 20px;
+}
+
+.title {
+  width: 100%;
+  height: 40px;
+  background-color: #404040;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.text span {
+  /* margin: 0 5px; */
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+.text p {
+  margin-left: 2px;
+  position: relative;
+  top: 2px;
+  font-size: 10px;
+}
+
+.button {
+  height: 40px;
+  width: 70px;
+  position: absolute;
+  background-color: #d97706;
+  right: 0;
+  top: 77.6%;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: peru;
+}
+
+@media screen and (max-width: 700px) {
+  .showBox {
+    height: 380px;
+    margin-right: 40px;
+    background-color: #404040;
+    display: grid;
+    /* margin: 25px 25px; */
+    position: relative;
+    border-radius: 5px;
+  }
+  .detailBox {
+    font-size: 8px;
+  }
+  .imdb img {
+    height: 20px;
+  }
+  .imdb p {
+    font-size: 15px;
+  }
+  .imdb {
+    margin-top: 100px;
+  }
+  .multiLanguage p {
+    font-size: 8px;
+  }
+  .button {
+    width: 40px;
+    font-size: 9px;
+  }
+}

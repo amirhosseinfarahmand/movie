@@ -1,0 +1,153 @@
+.sectionBox1 {
+  width: 100%;
+  background-image: url("../../images/Free\ Photo\ Black\ painted\ wall\ textured\ background.jpg");
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionBox1 div {
+  display: grid;
+  justify-content: center;
+}
+
+.sectionBox1 img {
+  border-radius: 3px;
+  margin: 0 10px;
+  height: 250px;
+  width: 200px;
+}
+
+.sectionBox1 p {
+  justify-content: center;
+  font-size: 14px;
+}
+
+.pictureBox {
+  margin-top: 1%;
+}
+
+.footerBox {
+  position: relative;
+  bottom: 20px;
+  width: 200px;
+  margin: 0 10px;
+  height: 40px;
+  background-color: black;
+  border-radius: 3px;
+}
+
+.footerBox img {
+  width: 40px;
+  height: 20px;
+  position: relative;
+}
+
+.footerBox .iconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sectionBox3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sectionBox2 {
+  width: 100%;
+  background-color: #292524;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.sectionBox2 input {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  color: black;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: blanchedalmond;
+  margin-left: 20px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 0;
+  background-color: orange;
+  height: 100%;
+  width: 20px;
+  border-radius: 10px;
+  transition: width 1s ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  width: 30px;
+}
+
+.genreSelect {
+  margin-right: 20px;
+  width: 130px;
+}
+
+.imdbSelect {
+  margin-right: 20px;
+  width: 130px;
+}
+
+.searchBox {
+  display: flex;
+  right: 35%;
+  background-color: black;
+  border-radius: 10px;
+  align-items: center;
+  height: 45px;
+}
+
+.searchBtn {
+  display: flex;
+  position: relative;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 0;
+  width: 0;
+}
+
+.sectionBox4 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .searchBox input {
+    width: 300px;
+  }
+  .imdbSelect {
+    width: 150px;
+    /* margin-right: 20px; */
+    height: 30px;
+  }
+}

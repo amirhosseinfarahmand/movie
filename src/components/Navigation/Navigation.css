@@ -1,0 +1,50 @@
+.mainNavigation {
+  height: 4.5rem;
+  background-color: #f97316;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainNavigation ul {
+  display: flex;
+  /* margin: 80px; */
+}
+
+.mainNavigation ul li {
+  margin: 10px;
+}
+
+.navHome {
+  position: absolute;
+  right: 0;
+  margin: 50px;
+}
+
+.navHome li {
+  border-radius: 20px;
+  padding: 10px;
+  transition: background-color 1s ease-in-out;
+}
+
+.navHome li:hover {
+  background-color: #ea580c;
+}
+
+.littleBox {
+  display: inline-block;
+}
+
+.littleBox button {
+  display: none;
+  background-color: blue;
+}
+
+.littleBox:hover button {
+  display: block;
+}
+
+.nav-box {
+  display: flex;
+  /* flex-wrap: wrap; */
+}

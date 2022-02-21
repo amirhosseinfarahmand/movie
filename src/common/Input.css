@@ -1,0 +1,10 @@
+.label {
+  color: white;
+}
+
+.error {
+  /* margin-bottom: 5px; */
+  color: red;
+  position: relative;
+  top: -25px;
+}
