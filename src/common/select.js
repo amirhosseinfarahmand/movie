@@ -1,7 +1,6 @@
 export const customStyles = {
   option: (provided, state) => ({
     ...provided,
-    // borderBottom: "1px dotted pink",
     color: state.isSelected ? "black" : "black",
     padding: 20,
     backgroundColor: "#525252",

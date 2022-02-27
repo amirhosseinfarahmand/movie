@@ -83,7 +83,6 @@ const Section3 = ({ data }) => {
             more=" "
             less="...Show less"
             anchorClass="oooeeer"
-            onClick=""
             expanded={false}
             width={0}
           >

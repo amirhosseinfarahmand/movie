@@ -28,11 +28,7 @@ const Navigation = () => {
         </ul>
       </nav>
       <nav className="navHome">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
+        <Link to="/">Home</Link>
       </nav>
     </header>
   );

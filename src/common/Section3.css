@@ -38,9 +38,9 @@
   margin-left: 2px;
 }
 
-p {
+/* p {
   font-size: 14px;
-}
+} */
 
 .calendar {
   display: flex;
@@ -153,7 +153,6 @@ p {
 }
 
 .text span {
-  /* margin: 0 5px; */
   font-size: 14px;
   color: #d1d5db;
 }
@@ -189,12 +188,11 @@ p {
     margin-right: 40px;
     background-color: #404040;
     display: grid;
-    /* margin: 25px 25px; */
     position: relative;
     border-radius: 5px;
   }
   .detailBox {
-    font-size: 8px;
+    font-size: 6px;
   }
   .imdb img {
     height: 20px;
@@ -206,10 +204,20 @@ p {
     margin-top: 100px;
   }
   .multiLanguage p {
-    font-size: 8px;
+    font-size: 5px;
   }
   .button {
     width: 40px;
     font-size: 9px;
+  }
+  .twoBox img {
+    width: 50%;
+  }
+  .text span {
+    font-size: 10px;
+  }
+
+  .textIcon {
+    font-size: 10px;
   }
 }

@@ -244,7 +244,7 @@ const Home = () => {
       case "4-5":
         setItems(
           items.filter(
-            (items) => items.vote_average > 4 && items.vote_average < 5
+            (items) => items.vote_average >= 4 && items.vote_average <= 5
           )
         );
         break;
@@ -254,7 +254,7 @@ const Home = () => {
       case "5-6":
         setItems(
           items.filter(
-            (items) => items.vote_average > 5 && items.vote_average < 6
+            (items) => items.vote_average >= 5 && items.vote_average <= 6
           )
         );
         break;
@@ -264,7 +264,7 @@ const Home = () => {
       case "6-7":
         setItems(
           items.filter(
-            (items) => items.vote_average > 6 && items.vote_average < 7
+            (items) => items.vote_average >= 6 && items.vote_average <= 7
           )
         );
         break;
@@ -274,7 +274,7 @@ const Home = () => {
       case "7-8":
         setItems(
           items.filter(
-            (items) => items.vote_average > 7 && items.vote_average < 8
+            (items) => items.vote_average >= 7 && items.vote_average <= 8
           )
         );
         break;
@@ -284,7 +284,7 @@ const Home = () => {
       case "8-9":
         setItems(
           items.filter(
-            (items) => items.vote_average > 8 && items.vote_average < 9
+            (items) => items.vote_average >= 8 && items.vote_average <= 9
           )
         );
         break;
@@ -402,11 +402,15 @@ const Home = () => {
       <section className="sectionBox3">
         {items
           ? items.map((data) => <Section3 data={data} key={data.id} />)
-          : "ops"}
+          : ""}
       </section>
-      <section className="sectionBox4">
-        <CustomPagination setPage={setPage} />
-      </section>
+      {items.length ? (
+        <section className="sectionBox4">
+          <CustomPagination setPage={setPage} />
+        </section>
+      ) : (
+        ""
+      )}
     </main>
   );
 };

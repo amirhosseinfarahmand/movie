@@ -11,7 +11,7 @@ const CustomPagination = ({ setPage, numOfCount = 10 }) => {
     palette: {
       primary: {
         main: "#FF8F00",
-        contrastText: "#fff",
+        // contrastText: "#fff",
       },
       text: {
         primary: "#FFFFFF",

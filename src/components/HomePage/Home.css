@@ -147,7 +147,9 @@
   }
   .imdbSelect {
     width: 150px;
-    /* margin-right: 20px; */
     height: 30px;
+  }
+  .searchBox {
+    margin-top: 10px;
   }
 }
